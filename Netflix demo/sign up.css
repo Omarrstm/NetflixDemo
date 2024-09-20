@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0 50px;
+    z-index: 2;
+    max-width: 1920px;
+}
+
+nav img {
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+nav a {
+    background-color: #e50914;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 14px;
+    margin-right: 50px;
+    color: #fff;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 8px;
+    line-height: 15px;
+}
+
+nav select {
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 14px;
+    margin-right: 50px;
+    color: #fff;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 8px;
+    line-height: 15px;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+nav select option {
+    background-color: rgb(126, 124, 124);
+    color: #fff;
+    font-size: 14px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/bg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    filter: brightness(50%); /* Adjust the brightness as needed */
+}
+
+.signup-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    width: 300px;
+}
+
+.signup-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e50914; /* Netflix red color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-link p {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

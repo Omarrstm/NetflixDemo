@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign up.css">
+    <title>Netflix Sign Up</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="imgs/logo.png" alt="logo">
+        </div>
+        <div class="nav-button">
+            <select>
+            <a href="netflix.html"> <option value="en">English</option></a>
+            <a href="#"><option value="ar">العربية</option></a>
+        </select>
+            <a href="sign in.html">Sign In</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="background-image"></div>
+        <div class="signup-box">
+            <h1>Sign Up</h1>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <div class="login-link">
+                <p>Already have an account? <a href="sign in.html">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
